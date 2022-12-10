@@ -1,0 +1,6 @@
+.card-content {
+    clip-path: polygon(0 1%, 100% 0, 91% 100%, 0% 100%);
+    z-index: 22;
+    top: 50%;
+    transform: translateY(-50%);
+}
