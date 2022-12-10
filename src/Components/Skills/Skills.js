@@ -30,7 +30,7 @@ const Skills = () => {
 
     return (
         <section id='skills' className='py-8'>
-            <div className="container mx-auto">
+            <div className="container mx-auto lg:px-32">
                 <h3 className="text-3xl font-bold uppercase pb-4">skills</h3>
                 <div className="flex w-3/4 mx-auto gap-5 row-span-3 flex-wrap justify-center">
                     {

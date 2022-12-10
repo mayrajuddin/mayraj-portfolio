@@ -7,9 +7,9 @@ const Projects = () => {
 
     return (
         <section className='py-8' id='projects'>
-            <div className="container mx-auto">
+            <div className="container mx-auto lg:px-32">
                 <h3 className="text-3xl font-bold capitalize my-4">projects</h3>
-                <div className="flex justify-end items-center lg:mx-32 relative">
+                <div className="flex justify-end items-center relative">
                     <div className='w-[520px]  absolute left-0  card-content '>
                         <div className="p-6 bg-[#999] rounded-xl text-white">
                             <h4 className="text-xl uppercase font-bold ">pc mart</h4>
