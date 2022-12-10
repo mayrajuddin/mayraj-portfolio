@@ -5,9 +5,9 @@ const Header = () => {
     const menuItem = [
         <>
             <li> <Link to='/' className='text-neutral-900 font-semibold text-lg capitalize'>Home</Link></li>
-            <li> <Link to='' className='text-neutral-900 font-semibold text-lg capitalize'>about me</Link></li>
-            <li> <Link to='' className='text-neutral-900 font-semibold text-lg capitalize'>Projects</Link></li>
-            <li><Link to='' className='text-neutral-900 font-semibold text-lg capitalize'>Contact</Link></li>
+            <li> <a href='#about' className='text-neutral-900 font-semibold text-lg capitalize'>about me</a></li>
+            <li> <a href='#projects' className='text-neutral-900 font-semibold text-lg capitalize'>Projects</a></li>
+            <li><a href='#contact' className='text-neutral-900 font-semibold text-lg capitalize'>Contact</a></li>
         </>
     ]
     return (
