@@ -6,12 +6,12 @@ import { SiFirebase, SiMongodb } from "react-icons/si";
 const Projects = () => {
 
     return (
-        <section className='py-8' id='projects'>
+        <section className='py-8 bg-[#1B1B1B] text-white' id='projects'>
             <div className="container mx-auto lg:px-32">
                 <h3 className="text-3xl font-bold capitalize my-4">projects</h3>
                 <div className="flex justify-end items-center relative">
                     <div className='w-[520px]  absolute left-0  card-content '>
-                        <div className="p-6 bg-[#999] rounded-xl text-white">
+                        <div className="p-6 bg-[#263243] rounded-xl text-white">
                             <h4 className="text-xl uppercase font-bold ">pc mart</h4>
                             <p className='py-4'>online resel laptop application for all. everyone can buy and sell laptops here.</p>
                             <div className='pb-4'>

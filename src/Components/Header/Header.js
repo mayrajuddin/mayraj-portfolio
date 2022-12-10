@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const menuItem = [
         <>
-            <li> <Link to='/' className='text-neutral-900 font-semibold text-lg capitalize'>Home</Link></li>
-            <li> <a href='#about' className='text-neutral-900 font-semibold text-lg capitalize'>about me</a></li>
-            <li> <a href='#projects' className='text-neutral-900 font-semibold text-lg capitalize'>Projects</a></li>
-            <li><a href='#contact' className='text-neutral-900 font-semibold text-lg capitalize'>Contact</a></li>
+            <li> <Link to='/' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>Home</Link></li>
+            <li> <a href='#about' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>about me</a></li>
+            <li> <a href='#projects' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>Projects</a></li>
+            <li><a href='#contact' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>Contact</a></li>
         </>
     ]
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-[#252525] text-white">
             <div className="container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,7 +22,7 @@ const Header = () => {
                             {menuItem}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost text-xl capitalize hover:bg-transparent text-violet-400">portfolio</Link>
+                    <Link to='/' className="btn btn-ghost text-xl capitalize hover:bg-transparent text-[#68DECD]">portfolio</Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

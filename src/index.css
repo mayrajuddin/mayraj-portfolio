@@ -21,9 +21,9 @@ code {
   content: '';
   left: 0;
   bottom: 0;
-  height: 2px;
+  height: 3px;
   width: 0%;
-  background: violet;
+  background: #68DECD;
   transition: all .3s ease-in;
 }
 

@@ -4,7 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const Contact = () => {
     return (
-        <section id='contact' className='py-8 bg-gray-800 text-gray-50 lg:px-32'>
+        <section id='contact' className='py-8 bg-[#1B1B1B] text-white lg:px-32'>
             <div className="container mx-auto">
                 <h3 className="text-3xl font-bold uppercase my-4">contact</h3>
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto  md:grid-cols-2 md:divide-x items-center">

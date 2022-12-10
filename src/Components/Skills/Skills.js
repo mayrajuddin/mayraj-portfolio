@@ -29,13 +29,13 @@ const Skills = () => {
     ]
 
     return (
-        <section id='skills' className='py-8'>
+        <section id='skills' className='py-8 bg-[#1B1B1B] text-white'>
             <div className="container mx-auto lg:px-32">
                 <h3 className="text-3xl font-bold uppercase pb-4">skills</h3>
                 <div className="flex w-3/4 mx-auto gap-5 row-span-3 flex-wrap justify-center">
                     {
                         skills.map(skill =>
-                            <div key={skill.id} className='p-3 shadow-md bg-[#999] skill relative'>
+                            <div key={skill.id} className='p-3 shadow-md bg-[#263243] skill relative'>
                                 <div className="flex items-center capitalize font-semibold font-sans">
                                     <span className='mr-1'>{skill.icon}</span> {skill.name}
                                 </div>
