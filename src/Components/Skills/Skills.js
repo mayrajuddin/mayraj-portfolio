@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaCss3, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
-import { IoLogoJavascript } from "react-icons/io";
-import { SiFirebase, SiMongodb, SiTailwindcss } from 'react-icons/si';
+import { SiFirebase, SiJavascript, SiMongodb, SiTailwindcss } from 'react-icons/si';
 const Skills = () => {
 
     const skills = [
@@ -18,7 +17,7 @@ const Skills = () => {
         {
             id: 3,
             name: 'javascript',
-            icon: <IoLogoJavascript />,
+            icon: <SiJavascript />,
         },
         {
             id: 4,
@@ -29,15 +28,15 @@ const Skills = () => {
     ]
 
     return (
-        <section id='skills' className='py-8 bg-[#1B1B1B] text-white'>
-            <div className="container mx-auto lg:px-32">
+        <section id='skills' className='bg-[#1B1B1B] text-white'>
+            <div className="container mx-auto lg:px-32 line-r py-8">
                 <h3 className="text-3xl font-bold uppercase pb-4">skills</h3>
                 <div className="flex w-3/4 mx-auto gap-5 row-span-3 flex-wrap justify-center">
                     {
                         skills.map(skill =>
                             <div key={skill.id} className='p-3 shadow-md bg-[#263243] skill relative'>
                                 <div className="flex items-center capitalize font-semibold font-sans">
-                                    <span className='mr-1'>{skill.icon}</span> {skill.name}
+                                    <span className='mr-2 text-[#68DECD] '>{skill.icon}</span> {skill.name}
                                 </div>
                             </div>
                         )

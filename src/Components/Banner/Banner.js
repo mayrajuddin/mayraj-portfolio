@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Banner = () => {
     return (
         <section>
-            <div className="bg-[#1B1B1B] text-white ">
-                <div className="container flex justify-between items-center px-4 py-16  mx-auto  md:py-32 md:px-10 lg:px-32 text-gray-900 ">
+            <div className="bg-[#1B1B1B] text-white line-b">
+                <div className="container flex justify-between items-center px-4 py-16  mx-auto  md:py-32 md:px-10 lg:px-32 text-gray-900 line-r ">
                     <div className='text-white'>
                         <h1 className="text-5xl font-bold font-sans leading-none sm:text-6xl xl:max-w-3xl  capitalize">Hi, im <span className='text-[#68DECD]'>mayraj uddin.</span></h1>
                         <p className="mt-6 mb-8 text-2xl sm:mb-12 xl:max-w-4xl capitalize font-semibold">a front-end developer</p>

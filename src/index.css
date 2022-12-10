@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,6 +28,40 @@ code {
   transition: all .3s ease-in;
 }
 
+.signiture {
+  font-family: 'Passions Conflict', cursive;
+}
+
 .skill:hover::after {
   width: 100%;
+}
+
+.line-r,
+.line-b {
+  position: relative;
+}
+
+.line-r::after {
+  position: absolute;
+  content: '';
+  right: 20px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #585D65;
+}
+
+.line-r::after,
+.line-b::before {
+  position: absolute;
+  content: '';
+  background-color: #585D65;
+}
+
+.line-b::before {
+  bottom: 0;
+  height: 1px;
+  left: 54px;
+  right: 54px;
+  width: calc(100% - 108px);
 }
