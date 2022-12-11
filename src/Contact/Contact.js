@@ -7,12 +7,12 @@ const Contact = () => {
     return (
         <section id='contact' className=' bg-[#1B1B1B] text-white'>
             <div className="py-8 container mx-auto line-r">
-                <h3 className="text-3xl font-bold uppercase my-4 lg:px-28">contact</h3>
+                <h3 className="text-3xl font-bold uppercase py-4 lg:mx-28 title">contact</h3>
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto  md:grid-cols-2 md:divide-x items-center">
                     <div className="py-6 md:px-6 border rounded-lg lg:w-96 ">
-                        <h1 className="text-xl  capitalize">Contact information</h1>
-                        <p className="pt-2 pb-4 text-[#68DECD] font-semibold text-2xl">Mayraj uddin</p>
-                        <div className="space-y-4">
+                        <h1 className="text-2xl  capitalize"><b>Mayraj uddin</b></h1>
+                        <h4 className="text-lg pb-4 capitalize text-[#68DECD]">front-end developer</h4>
+                        <div className="space-y-2">
                             <p className="flex items-center">
                                 <IoLocationSharp size={22} className='mr-2 sm:mr-6 text-[#68DECD]' />
                                 <span>Barotakia, Mirsharai, Chittagong</span>
@@ -25,6 +25,9 @@ const Contact = () => {
                                 <FaRegEnvelope className='mr-2 sm:mr-6 text-[#68DECD]' size={22} />
                                 <span>mayrajuddin03@gmail.com</span>
                             </p>
+                            <div className='py-4 text-center'>
+                                <p className='signiture text-6xl capitalize text-[#68DECD]'>mayraj uddin</p>
+                            </div>
                         </div>
                     </div>
                     <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">

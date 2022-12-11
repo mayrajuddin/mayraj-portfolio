@@ -1,0 +1,15 @@
+.title {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.title::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 60px;
+    background: #68DECD;
+    z-index: 222;
+}

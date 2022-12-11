@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEye, FaGithub, FaLinkedin } from "react-icons/fa";
 const Banner = () => {
     return (
         <section>
@@ -10,7 +10,7 @@ const Banner = () => {
                         <p className="mt-6 mb-8 text-2xl sm:mb-12 xl:max-w-4xl capitalize font-semibold">a front-end developer</p>
                         <div className="">
                             <a href="https://drive.google.com/file/d/1mfJ6yqx7b8dsQ1ZeJg1EpW_PriWaXEdR/view?usp=share_link" target='blank'>
-                                <button type="button" className="px-8 py-3 m-2 text-lg border rounded border-[#68DECD] font-semibold  capitalize">resume</button>
+                                <button type="button" className="px-8 py-3 m-2 text-lg border rounded border-[#68DECD] font-semibold  capitalize hover:text-[#68decd] duration-700 ease-in"><FaEye size={22} className='inline mr-1' /> resume</button>
                             </a>
                         </div>
                     </div>

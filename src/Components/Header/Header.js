@@ -1,6 +1,7 @@
 import React from 'react';
+import { FaDownload } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-
+import resume from '../../resume-of-mayraj.pdf'
 const Header = () => {
     const menuItem = [
         <>
@@ -24,10 +25,16 @@ const Header = () => {
                     </div>
                     <Link to='/' className="btn btn-ghost text-xl capitalize hover:bg-transparent text-[#68DECD]">portfolio</Link>
                 </div>
-                <div className="navbar-end hidden lg:flex">
+                <div className=" hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {menuItem}
                     </ul>
+                </div>
+                <div className="navbar-end text-end">
+                    <a href={resume} download='mayraj-resume' className='capitalize font-semibold text-lg text-[#68DECD] border border-[#68DECD] py-1 px-3 rounded-2xl'>
+                        resume
+                        <FaDownload size={19} className='inline ml-2' />
+                    </a>
                 </div>
             </div>
         </div>
