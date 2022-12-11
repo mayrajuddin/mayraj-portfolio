@@ -2,8 +2,9 @@ import React from 'react';
 import { FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
 import { BiLinkExternal, } from "react-icons/bi";
 import { SiFirebase, SiMongodb } from "react-icons/si";
+import { Link } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
-    const { projectName, gitLink, liveLink, details, img } = project;
+    const { projectName, gitLink, liveLink, details, img, id } = project;
     return (
         <div className="flex justify-end items-center relative card-item">
             <div className='w-[520px]  absolute left-0  card-content '>
@@ -28,11 +29,18 @@ const ProjectCard = ({ project }) => {
                             MongoDB
                         </div>
                     </div>
-                    <div className='flex'>
-                        <a href={gitLink} target='blank'
-                            className='mr-3  hover:border-red-700'><FaGithub size={22} /></a>
-                        <a href={liveLink} target='blank'
-                            className=''><BiLinkExternal size={22} /></a>
+                    <div className='flex justify-between items-center'>
+                        <div className="flex">
+                            <a href={gitLink} target='blank'
+                                className='mr-3  hover:border-red-700'><FaGithub size={22} /></a>
+                            <a href={liveLink} target='blank'
+                                className=''><BiLinkExternal size={22} /></a>
+                        </div>
+                        <Link to={`/project/${id}`} className='flex-end lg:mr-5'>
+                            <div className="badge border bg-transparent border-[#68DECD] p-2 px-3 font-semibold">
+                                Details
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
