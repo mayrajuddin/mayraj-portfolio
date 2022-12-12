@@ -2,9 +2,10 @@ import React from 'react';
 import { FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
 import { BiLinkExternal, } from "react-icons/bi";
 import { SiFirebase, SiMongodb } from "react-icons/si";
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
     const { projectName, gitLink, liveLink, details, img, id } = project;
+
     return (
         <div className="flex justify-end items-center relative card-item">
             <div className='w-[520px]  absolute left-0  card-content '>
