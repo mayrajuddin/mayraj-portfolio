@@ -24,7 +24,24 @@ const projectsData = [
                 "icon": "<SiMongodb />"
             }
         ],
-        img: "https://i.ibb.co/BgL0fkZ/pcmart.jpg"
+        img: "https://i.ibb.co/BgL0fkZ/pcmart.jpg",
+        screenShot: [
+            {
+                id: 1,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            },
+            {
+                id: 2,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            },
+            {
+                id: 3,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            }
+        ]
     },
     {
         id: 2,
@@ -50,7 +67,24 @@ const projectsData = [
                 "icon": "<SiMongodb />"
             }
         ],
-        img: "https://i.ibb.co/9hFsLtd/eyetone.jpg"
+        img: "https://i.ibb.co/9hFsLtd/eyetone.jpg",
+        screenShot: [
+            {
+                id: 1,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            },
+            {
+                id: 2,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            },
+            {
+                id: 3,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            }
+        ]
     },
     {
         id: 3,
@@ -76,7 +110,24 @@ const projectsData = [
                 "icon": "<SiMongodb />"
             }
         ],
-        img: "https://i.ibb.co/L1Cp622/speak-express.jpg"
+        img: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+        screenShot: [
+            {
+                id: 1,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            },
+            {
+                id: 2,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            },
+            {
+                id: 3,
+                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
+                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+            }
+        ]
     }
 ]
 export default projectsData 

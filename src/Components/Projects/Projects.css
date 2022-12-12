@@ -27,3 +27,7 @@
 .card-item:nth-child(2n+2) .card-content {
     left: 50%;
 }
+
+.proj-row:nth-child(2n+0) {
+    flex-direction: row-reverse;
+}
