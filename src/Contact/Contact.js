@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { FaPhoneAlt, FaRegEnvelope } from 'react-icons/fa';
 import { IoLocationSharp } from "react-icons/io5";
 import { FiSend, } from "react-icons/fi";
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
+    const form = useRef()
+    const contactForm = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_egp57ne', 'template_fh6jbjk', form.current, 'sPddVwWTOVuO9RguH')
+            .then((result) => {
+                console.log('message send');
+                toast('message send successful')
+                e.target.reset()
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
     return (
         <section id='contact' className=' bg-[#1B1B1B] text-white'>
             <div className="py-8 container mx-auto line-r">
@@ -30,20 +45,20 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                    <form ref={form} onSubmit={contactForm} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                         <fieldset className="block border py-2 px-4 rounded-xl">
                             <legend className='px-3 text-md ml-6'> Full name <b className='text-[#68DECD]'>*</b></legend>
-                            <input type="text" placeholder="Your Name" className="input block w-full rounded-md shadow-sm bg-transparent " />
+                            <input type="text" name='user_name' placeholder="Your Name" className="input block w-full rounded-md shadow-sm bg-transparent " />
                         </fieldset>
                         <fieldset className="block border py-2 px-4 rounded-xl">
                             <legend className='px-3 text-md ml-6'> Your Email <b className='text-[#68DECD]'>*</b></legend>
-                            <input type="email" placeholder="Your Email" className="input block w-full rounded-md shadow-sm bg-transparent " />
+                            <input type="email" name='user_email' placeholder="Your Email" className="input block w-full rounded-md shadow-sm bg-transparent " />
                         </fieldset>
                         <fieldset className="block border py-2 px-4 rounded-xl">
                             <legend className='px-3 text-md ml-6'> Message <b className='text-[#68DECD]'>*</b></legend>
-                            <textarea rows="3" className="block w-full rounded-md bg-transparent textarea" placeholder='Message'></textarea>
+                            <textarea rows="3" name='message' className="block w-full rounded-md bg-transparent textarea" placeholder='Message'></textarea>
                         </fieldset>
-                        <button type="button" className="px-8 py-3 rounded-lg border border-[#68DECD] text-white capitalize font-bold text-xl">sent Message <FiSend className='inline ml-2' /> </button>
+                        <button type="submit" className="px-8 py-3 rounded-lg border border-[#68DECD] text-white capitalize font-bold text-xl">sent Message <FiSend className='inline ml-2' /> </button>
                     </form>
                 </div>
             </div>
