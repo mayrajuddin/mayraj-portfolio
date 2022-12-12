@@ -5,7 +5,7 @@ import projects from '../../ProjectsData'
 const ProjectDetails = () => {
     const { id } = useParams()
     const project = projects.find(proj => proj.id === parseInt(id))
-    const { screenShot, details } = project
+    const { screenShot, details, technology } = project
     return (
         <section className='bg-[#1B1B1B] text-white py-8' >
             <div className="container mx-auto ">
@@ -26,8 +26,13 @@ const ProjectDetails = () => {
                         </div>)
                     }
                 </div>
-                <div className="">
+                <div className="mt-4">
                     <p> {details} </p>
+                    <div className="mt-3">
+                        {
+                            technology.map(tech => <span className='border border-[#68DECD] mx-2 py-1 text-sm px-3'> {tech.techName}</span>)
+                        }
+                    </div>
                 </div>
             </div>
         </section>

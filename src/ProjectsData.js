@@ -28,18 +28,18 @@ const projectsData = [
         screenShot: [
             {
                 id: 1,
-                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                ss: "https://i.ibb.co/BgL0fkZ/pcmart.jpg",
+                PDetail: "online resel laptop application for all. everyone can buy and sell laptops here."
             },
             {
                 id: 2,
-                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                ss: "https://i.ibb.co/BgL0fkZ/pcmart.jpg",
+                PDetail: "online resel laptop application for all. everyone can buy and sell laptops here."
             },
             {
                 id: 3,
-                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                ss: "https://i.ibb.co/BgL0fkZ/pcmart.jpg",
+                PDetail: "online resel laptop application for all. everyone can buy and sell laptops here."
             }
         ]
     },
@@ -71,18 +71,18 @@ const projectsData = [
         screenShot: [
             {
                 id: 1,
-                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                ss: "https://i.ibb.co/9hFsLtd/eyetone.jpg",
+                PDetail: "online eye doctor appointment service"
             },
             {
                 id: 2,
-                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                ss: "https://i.ibb.co/9hFsLtd/eyetone.jpg",
+                PDetail: "online eye doctor appointment service"
             },
             {
                 id: 3,
-                ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                ss: "https://i.ibb.co/9hFsLtd/eyetone.jpg",
+                PDetail: "online eye doctor appointment service"
             }
         ]
     },
@@ -115,17 +115,17 @@ const projectsData = [
             {
                 id: 1,
                 ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                PDetail: "online learnig language service"
             },
             {
                 id: 2,
                 ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                PDetail: "online learnig language service"
             },
             {
                 id: 3,
                 ss: "https://i.ibb.co/L1Cp622/speak-express.jpg",
-                PDetail: "online learnig language service.online learnig language service.online learnig language service.online learnig language service"
+                PDetail: "online learnig language service"
             }
         ]
     }
