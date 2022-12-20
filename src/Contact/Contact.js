@@ -22,9 +22,9 @@ const Contact = () => {
     return (
         <section id='contact' className=' bg-[#1B1B1B] text-white'>
             <div className="py-8 container mx-auto line-r">
-                <h3 className="text-3xl font-bold uppercase py-4 lg:mx-28 title md:mx-8">contact</h3>
-                <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto  md:grid-cols-2 md:divide-x items-center gap-4 lg:gap-0">
-                    <div className="py-6 md:px-6 border rounded-lg lg:w-96 ">
+                <h3 className="text-3xl font-bold uppercase py-4 mx-4 lg:mx-28 title md:mx-8">contact</h3>
+                <div className="mt-3 sm:mt-0 grid max-w-6xl grid-cols-1 px-6 mx-auto  md:grid-cols-2 md:divide-x items-center gap-4 lg:gap-0">
+                    <div className="py-6 px-3 md:px-6 border rounded-lg lg:w-96 mx-4 sm:mx-0">
                         <h1 className="text-2xl  capitalize"><b>Mayraj uddin</b></h1>
                         <h4 className="text-lg pb-4 capitalize text-[#68DECD]">front-end developer</h4>
                         <div className="space-y-2">
@@ -45,7 +45,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <form ref={form} onSubmit={contactForm} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+                    <form ref={form} onSubmit={contactForm} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid mx-4 sm:mx-0">
                         <fieldset className="block border py-2 px-4 rounded-xl">
                             <legend className='px-3 text-md ml-6'> Full name <b className='text-[#68DECD]'>*</b></legend>
                             <input type="text" name='user_name' placeholder="Your Name" className="input block w-full rounded-md shadow-sm bg-transparent border-none" />
