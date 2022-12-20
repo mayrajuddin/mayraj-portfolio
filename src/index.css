@@ -61,7 +61,7 @@ code {
 .line-b::before {
   bottom: 0;
   height: 1px;
-  left: 54px;
+  left: 0px;
   right: 54px;
-  width: calc(100% - 108px);
+  width: calc(100% - 54px);
 }

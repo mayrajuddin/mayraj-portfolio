@@ -5,11 +5,11 @@ import resume from '../../resume-of-mayraj.pdf'
 const Header = () => {
     const menuItem = [
         <>
-            <li> <Link to='/' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>Home</Link></li>
-            <li> <a href='#about' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>about me</a></li>
-            <li> <a href='#projects' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>Projects</a></li>
-            <li> <a href='/blog' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>blog</a></li>
-            <li><a href='#contact' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] duration-700 ease-in'>Contact</a></li>
+            <li> <Link to='/' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>Home</Link></li>
+            <li> <a href='#about' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>about me</a></li>
+            <li> <a href='#projects' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>Projects</a></li>
+            <li> <a href='/blog' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>blog</a></li>
+            <li><a href='#contact' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>Contact</a></li>
         </>
     ]
     return (

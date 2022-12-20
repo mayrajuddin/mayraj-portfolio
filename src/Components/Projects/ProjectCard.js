@@ -7,8 +7,8 @@ const ProjectCard = ({ project }) => {
     const { projectName, gitLink, liveLink, details, img, id } = project;
 
     return (
-        <div className="flex justify-end items-center relative card-item">
-            <div className='w-[520px]  absolute left-0  card-content '>
+        <div className="flex justify-end items-center relative card-item md:mx-8 lg:mx-0">
+            <div className='lg:w-[520px]  absolute left-0  card-content '>
                 <div className="p-6 bg-[#263243] rounded-xl text-white">
                     <h4 className="text-xl uppercase font-bold">{projectName}</h4>
                     <p className='py-4'>{details}</p>

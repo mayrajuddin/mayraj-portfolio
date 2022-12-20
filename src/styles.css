@@ -13,3 +13,21 @@
     background: #68DECD;
     z-index: 222;
 }
+
+@media screen and (max-width: 639px) {
+    .line-b::before {
+        bottom: 0;
+        height: 1px;
+        left: 0px;
+        right: 54px;
+        width: calc(100% - 21px);
+    }
+}
+
+@media screen and (min-width: 639px) and (max-width: 1023px) {
+    .line-b::before {
+        left: 0px;
+        right: 54px;
+        width: calc(100% - 21px);
+    }
+}
