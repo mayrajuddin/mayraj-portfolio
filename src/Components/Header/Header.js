@@ -2,12 +2,13 @@ import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import resume from '../../resume-of-mayraj.pdf'
+import logo from '../../mj-logo.png'
 const Header = () => {
     const menuItem = [
         <>
             <li> <Link to='/' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>Home</Link></li>
             <li> <a href='#about' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>about me</a></li>
-            <li> <a href='#projects' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>Projects</a></li>
+            <li> <Link to='/projects' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>Projects</Link></li>
             <li> <a href='/blog' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>blog</a></li>
             <li><a href='#contact' className='text-neutral-900 font-semibold text-lg capitalize hover:text-[#68DECD] hover:bg-transparent duration-700 ease-in'>Contact</a></li>
         </>
@@ -24,7 +25,10 @@ const Header = () => {
                             {menuItem}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost text-xl capitalize hover:bg-transparent text-[#68DECD]">portfolio</Link>
+                    <Link to='/' className="btn btn-ghost text-xl  hover:bg-transparent text-[#68DECD]">
+                        <img src={logo} alt="" className='w-20 inline' />
+                        <span className='-m-5 text-2xl '>Mayraj</span>
+                    </Link>
                 </div>
                 <div className=" hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

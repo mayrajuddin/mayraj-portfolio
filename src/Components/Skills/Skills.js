@@ -30,7 +30,7 @@ const Skills = () => {
     return (
         <section id='skills' className='bg-[#1B1B1B] text-white'>
             <div className="container mx-auto lg:px-32 line-r py-8">
-                <h3 className="text-3xl font-bold uppercase pb-4 title  mx-4 lg:mx-28 title md:mx-8 mb-4 sm:mb-0">skills</h3>
+                <h3 className="text-3xl font-bold uppercase pb-4 title  mx-4 lg:mx-0 title md:mx-8 mb-4 sm:mb-0">skills</h3>
                 <div className="flex w-3/4 mx-auto gap-5 row-span-3 flex-wrap justify-center">
                     {
                         skills.map(skill =>

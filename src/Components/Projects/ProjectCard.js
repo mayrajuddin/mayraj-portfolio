@@ -13,19 +13,19 @@ const ProjectCard = ({ project }) => {
                     <h4 className="text-xl uppercase font-bold">{projectName}</h4>
                     <p className='py-4'>{details}</p>
                     <div className='pb-4'>
-                        <div className="badge badge-success gap-2 font-semibold mr-1">
+                        <div className="badge bg-[#68DECD] text-[#121212] gap-2 font-semibold mr-1">
                             <FaReact />
                             React JS
                         </div>
-                        <div className="badge badge-success gap-2 font-semibold mr-1">
+                        <div className="badge bg-[#68DECD] text-[#121212] gap-2 font-semibold mr-1">
                             <FaNodeJs />
                             Node JS
                         </div>
-                        <div className="badge badge-success gap-2 font-semibold mr-1">
+                        <div className="badge bg-[#68DECD] text-[#121212] gap-2 font-semibold mr-1">
                             <SiFirebase />
                             Firebase
                         </div>
-                        <div className="badge badge-success gap-2 font-semibold mr-1">
+                        <div className="badge bg-[#68DECD] text-[#121212] gap-2 font-semibold mr-1">
                             <SiMongodb />
                             MongoDB
                         </div>
@@ -47,7 +47,8 @@ const ProjectCard = ({ project }) => {
             </div>
             <div className='w-3/5'>
                 <img src={img} alt="" className='h-[340px] w-full rounded-xl hover:scale-105 duration-500 ease-linear' />
-            </div></div>
+            </div>
+        </div>
     );
 };
 

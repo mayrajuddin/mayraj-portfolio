@@ -3,6 +3,7 @@ import ProjectDetails from "../Components/Projects/ProjectDetails";
 import Main from "../Layout/Main";
 import Blog from "../Pages/Blog/Blog";
 import Home from '../Pages/Home/Home'
+import Projects from "../Pages/Projects/Projects";
 
 export const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
             {
                 path: '/blog',
                 element: <Blog />
+            },
+            {
+                path: '/projects',
+                element: <Projects />
             },
             {
                 path: '/project/:id',
