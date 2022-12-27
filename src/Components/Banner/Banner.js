@@ -18,9 +18,9 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='flex flex-col flex-end'>
-                        <a href='https://github.com/mayrajuddin' target="_blank" className='mb-2 border-2 rounded-full p-2 border-transparent duration-700 ease-in hover:border-white '><FaGithub size={24} className=' text-[#68DECD]' /></a>
-                        <a href='https://www.linkedin.com/in/mayrajuddin/' target='_blank' className='mb-2 border-2 rounded-full p-2 border-transparent duration-700 ease-in hover:border-white '><FaLinkedin size={24} className='text-[#68DECD]' /></a>
-                        <a href='https://discord.com/users/917031322256551948' target='_blank' className='mb-2 border-2 rounded-full p-2 border-transparent duration-700 ease-in hover:border-white '><FaDiscord size={24} className='text-[#68DECD]' /></a>
+                        <a href='https://github.com/mayrajuddin' target="blank" className='mb-2 border-2 rounded-full p-2 border-transparent duration-700 ease-in hover:border-white '><FaGithub size={24} className=' text-[#68DECD]' /></a>
+                        <a href='https://www.linkedin.com/in/mayrajuddin/' target='blank' className='mb-2 border-2 rounded-full p-2 border-transparent duration-700 ease-in hover:border-white '><FaLinkedin size={24} className='text-[#68DECD]' /></a>
+                        <a href='https://discord.com/users/917031322256551948' target='blank' className='mb-2 border-2 rounded-full p-2 border-transparent duration-700 ease-in hover:border-white '><FaDiscord size={24} className='text-[#68DECD]' /></a>
                     </div>
                 </div>
             </div>
